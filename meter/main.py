@@ -1,6 +1,7 @@
 import datetime
 from send import sendReadings
 
+## Helper function to return datetime object from string input
 def getTime(hh_mm_ss):
   if not hh_mm_ss:
     return None
@@ -8,7 +9,9 @@ def getTime(hh_mm_ss):
   hh, mm, ss = map(int,hh_mm_ss.split(':'))
   return datetime.datetime.now().replace(hour = hh, minute = mm, second = ss, microsecond = 0)
 
-
+## Define main method to be called from command line
+## May be passed arguments in form of 'key=value'
+## Example: `python main.py beg=14:00:00 num=60`
 def main():
   import sys
 
