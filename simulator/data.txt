@@ -1,14 +1,62 @@
 [
   {
-    "timestamp": 1583686800.0,
-    "meter power value (Watts)": 8090.037474654819,
-    "simulated pv power value (kW)": 2.714628187086634,
-    "sum of power values (Watts)": 10804.665661741452
+    "timestamp": 1583758800.0,
+    "meter power value (Watts)": 1873.7200379693825,
+    "simulated pv power value (kW)": 0.6431707720217475,
+    "sum of power values (Watts)": 2516.89080999113
   },
   {
-    "timestamp": 1583686803.0,
-    "meter power value (Watts)": 1389.2520523789094,
-    "simulated pv power value (kW)": 2.7150353270109355,
-    "sum of power values (Watts)": 4104.287379389845
+    "timestamp": 1583762400.0,
+    "meter power value (Watts)": 8563.464920134476,
+    "simulated pv power value (kW)": 1.0551205189146367,
+    "sum of power values (Watts)": 9618.585439049113
+  },
+  {
+    "timestamp": 1583766000.0,
+    "meter power value (Watts)": 4584.584882710541,
+    "simulated pv power value (kW)": 1.5819448318699079,
+    "sum of power values (Watts)": 6166.529714580449
+  },
+  {
+    "timestamp": 1583769600.0,
+    "meter power value (Watts)": 3510.21610330759,
+    "simulated pv power value (kW)": 2.167674635290042,
+    "sum of power values (Watts)": 5677.890738597632
+  },
+  {
+    "timestamp": 1583773200.0,
+    "meter power value (Watts)": 5695.446433842509,
+    "simulated pv power value (kW)": 2.714628187086634,
+    "sum of power values (Watts)": 8410.074620929143
+  },
+  {
+    "timestamp": 1583776800.0,
+    "meter power value (Watts)": 1503.1897998768784,
+    "simulated pv power value (kW)": 3.1069918159575747,
+    "sum of power values (Watts)": 4610.181615834453
+  },
+  {
+    "timestamp": 1583780400.0,
+    "meter power value (Watts)": 4178.92689868173,
+    "simulated pv power value (kW)": 3.25,
+    "sum of power values (Watts)": 7428.92689868173
+  },
+  {
+    "timestamp": 1583784000.0,
+    "meter power value (Watts)": 7567.0198048688435,
+    "simulated pv power value (kW)": 3.1069918159575747,
+    "sum of power values (Watts)": 10674.011620826419
+  },
+  {
+    "timestamp": 1583787600.0,
+    "meter power value (Watts)": 8169.157723956914,
+    "simulated pv power value (kW)": 2.714628187086634,
+    "sum of power values (Watts)": 10883.78591104355
+  },
+  {
+    "timestamp": 1583791200.0,
+    "meter power value (Watts)": 496.7888583066513,
+    "simulated pv power value (kW)": 2.167674635290042,
+    "sum of power values (Watts)": 2664.4634935966933
   }
 ]

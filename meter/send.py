@@ -1,11 +1,7 @@
 import datetime, json, pika, random, time
 
-NOON = datetime.datetime.now().replace(hour = 12, minute = 0, second = 0, microsecond = 0)
-
-def sendReadings(beginningTime = NOON, measurements = None, endTime = None, intervalSeconds = 3): 
-  if not (measurements or endTime):
-    measurements = 10
-  elif endTime:
+def sendReadings(beginningTime = None, measurements = None, endTime = None, intervalSeconds = None): 
+  if endTime:
     measurements = (endTime - beginningTime).seconds // intervalSeconds
 
   connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
@@ -27,4 +23,3 @@ def sendReadings(beginningTime = NOON, measurements = None, endTime = None, inte
   channel.basic_publish(exchange='', routing_key='meter', body=json.dumps({'terminate':True}))
   connection.close()
 
-sendReadings(measurements = 2)
